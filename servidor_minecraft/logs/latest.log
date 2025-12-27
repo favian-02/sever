@@ -1,0 +1,2910 @@
+[04:20:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[04:20:39] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[04:20:39] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:20:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[04:20:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Geyser-Spigot (2.9.2-SNAPSHOT), ViaVersion (5.6.0), floodgate (2.2.5-SNAPSHOT (b125-a772911))
+[04:20:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:20:50] [ServerMain/INFO]: Loaded 1407 recipes
+[04:20:50] [ServerMain/INFO]: Loaded 1520 advancements
+[04:20:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[04:20:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 650.2ms
+[04:20:51] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[04:20:51] [Server thread/INFO]: Loading properties
+[04:20:51] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[04:20:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:20:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:20:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:20:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[04:20:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[04:20:53] [Server thread/INFO]: Default game type: SURVIVAL
+[04:20:53] [Server thread/INFO]: Generating keypair
+[04:20:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:20:53] [Server thread/INFO]: Using epoll channel type
+[04:20:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:20:53] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[04:20:54] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b125-a772911)
+[04:20:56] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[04:20:56] [Server thread/INFO]: [floodgate] Took 1,509ms to boot Floodgate
+[04:20:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.6.0
+[04:20:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.6.0 is now loaded. Registering protocol transformers and injecting...
+[04:20:57] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[04:20:57] [Via-Mappingloader-1/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[04:20:58] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.9.2-SNAPSHOT
+[04:20:58] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[04:20:58] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[04:20:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[04:20:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:20:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:20:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:20:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:20:58] [Server thread/INFO]: Preparing level "world"
+[04:20:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:20:59] [Server thread/INFO]: Preparing spawn area: 0%
+[04:20:59] [Server thread/INFO]: Preparing spawn area: 2%
+[04:21:01] [Server thread/INFO]: Preparing spawn area: 2%
+[04:21:01] [Server thread/INFO]: Preparing spawn area: 2%
+[04:21:01] [Server thread/INFO]: Preparing spawn area: 2%
+[04:21:01] [Server thread/INFO]: Time elapsed: 2218 ms
+[04:21:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[04:21:01] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:02] [Server thread/INFO]: Time elapsed: 481 ms
+[04:21:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[04:21:02] [Server thread/INFO]: Preparing spawn area: 0%
+[04:21:02] [Server thread/INFO]: Time elapsed: 231 ms
+[04:21:02] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b125-a772911)
+[04:21:03] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.6.0
+[04:21:03] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[04:21:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.9.2-SNAPSHOT
+[04:21:03] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser help
+[04:21:03] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser list
+[04:21:03] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser reload
+[04:21:03] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser offhand
+[04:21:03] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser dump
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser version
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser settings
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser statistics
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser advancements
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser tooltips
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser connectiontest
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser ping
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser options
+[04:21:05] [Server thread/INFO]: [Geyser-Spigot] Registered command geyser quickactions
+[04:21:06] [Server thread/INFO]: [spark] Starting background profiler...
+[04:21:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:21:06] [Server thread/INFO]: [Geyser-Spigot] 
+[04:21:06] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.9.2-b1014 (git-master-27fc2d5)
+[04:21:06] [Server thread/INFO]: [Geyser-Spigot] 
+[04:21:06] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping BLOCK_MARKER because no Bedrock equivalent exists.
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping DUST_PILLAR because no Bedrock equivalent exists.
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping GUST because no Bedrock equivalent exists.
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping GUST_EMITTER_LARGE because no Bedrock equivalent exists.
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping SMALL_GUST because no Bedrock equivalent exists.
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Skipping particle mapping TRAIL because no Bedrock equivalent exists.
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.SolidCollision
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.TrapdoorCollision
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.GlassPaneAndIronBarsCollision
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.DoorCollision
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.ScaffoldingCollision
+[04:21:07] [Server thread/INFO]: [Geyser-Spigot] Found annotated collision translator: org.geysermc.geyser.translator.collision.DirtPathCollision
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAnimateTranslator : ClientboundAnimatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTakeItemEntityTranslator : ClientboundTakeItemEntityPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockSetLocalPlayerAsInitializedTranslator : SetLocalPlayerAsInitializedPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateTagsTranslator : ClientboundUpdateTagsPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaTeleportEntityTranslator : ClientboundTeleportEntityPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveEntitiesTranslator : ClientboundRemoveEntitiesPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaCooldownTranslator : ClientboundCooldownPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaAddEntityTranslator : ClientboundAddEntityPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenScreenTranslator : ClientboundOpenScreenPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginFinishedTranslator : ClientboundLoginFinishedPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityEventTranslator : ClientboundEntityEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockToggleCrafterSlotRequestTranslator : ToggleCrafterSlotRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEntityPickRequestTranslator : EntityPickRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheRadiusTranslator : ClientboundSetChunkCacheRadiusPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSectionBlocksUpdateTranslator : ClientboundSectionBlocksUpdatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetTimeTranslator : ClientboundSetTimePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderCenterTranslator : ClientboundSetBorderCenterPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockEntityDataTranslator : BlockEntityDataPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockInventoryTransactionTranslator : InventoryTransactionPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHealthTranslator : ClientboundSetHealthPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetPlayerInventoryTranslator : ClientboundSetPlayerInventoryPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelChunkWithLightTranslator : ClientboundLevelChunkWithLightPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaMerchantOffersTranslator : ClientboundMerchantOffersPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaKeepAliveTranslator : ClientboundKeepAlivePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaResetScorePacket : ClientboundResetScorePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockShowCreditsTranslator : ShowCreditsPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaStoreCookieTranslator : ClientboundStoreCookiePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRespawnTranslator : RespawnPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosTranslator : ClientboundMoveEntityPosPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookRemoveTranslator : ClientboundRecipeBookRemovePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitlesAnimationTranslator : ClientboundSetTitlesAnimationPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockMobEquipmentTranslator : MobEquipmentPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDifficultyTranslator : SetDifficultyPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityMotionTranslator : ClientboundSetEntityMotionPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSoundTranslator : ClientboundSoundPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateEnabledFeaturesPacket : ClientboundUpdateEnabledFeaturesPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaOpenSignEditorTranslator : ClientboundOpenSignEditorPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaChunkBatchFinishedTranslator : ClientboundChunkBatchFinishedPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRemoveMobEffectTranslator : ClientboundRemoveMobEffectPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerPositionTranslator : ClientboundPlayerPositionPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaRotateHeadTranslator : ClientboundRotateHeadPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaFinishConfigurationTranslator : ClientboundFinishConfigurationPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockServerSettingsRequestTranslator : ServerSettingsRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateAdvancementsTranslator : ClientboundUpdateAdvancementsPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandRequestTranslator : CommandRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaTrackedWaypointTranslator : ClientboundTrackedWaypointPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityRotTranslator : ClientboundMoveEntityRotPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockContainerCloseTranslator : ContainerClosePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateAttributesTranslator : ClientboundUpdateAttributesPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerCloseTranslator : ClientboundContainerClosePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveEntityPosRotTranslator : ClientboundMoveEntityPosRotPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPositionTrackingDBClientRequestTranslator : PositionTrackingDBClientRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetDefaultSpawnPositionTranslator : ClientboundSetDefaultSpawnPositionPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockItemStackRequestTranslator : ItemStackRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetPlayerTeamTranslator : ClientboundSetPlayerTeamPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaBlockChangedAckTranslator : ClientboundBlockChangedAckPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockEmoteTranslator : EmotePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEquipmentTranslator : ClientboundSetEquipmentPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaDisguisedChatTranslator : ClientboundDisguisedChatPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRegistryDataTranslator : ClientboundRegistryDataPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetDataTranslator : ClientboundContainerSetDataPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockFilterTextTranslator : FilterTextPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaExplodeTranslator : ClientboundExplodePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaTransferPacketTranslator : ClientboundTransferPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderLerpSizeTranslator : ClientboundSetBorderLerpSizePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRecipeBookAddTranslator : ClientboundRecipeBookAddPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.BedrockEntityEventTranslator : EntityEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockPlayerActionTranslator : PlayerActionPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCodeOfConductTranslator : ClientboundCodeOfConductPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaSetChunkCacheCenterTranslator : ClientboundSetChunkCacheCenterPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCommandsTranslator : ClientboundCommandsPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPingTranslator : ClientboundPingPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockAnimateTranslator : AnimatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaUpdateRecipesTranslator : ClientboundUpdateRecipesPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomPayloadTranslator : ClientboundCustomPayloadPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSystemChatTranslator : ClientboundSystemChatPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockLecternUpdateTranslator : LecternUpdatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetContentTranslator : ClientboundContainerSetContentPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetHeldSlotTranslator : ClientboundSetHeldSlotPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetTitleTextTranslator : ClientboundSetTitleTextPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaInitializeBorderTranslator : ClientboundInitializeBorderPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockDestructionTranslator : ClientboundBlockDestructionPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEventTranslator : ClientboundBlockEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaClientboundResourcePackPushPacket : ClientboundResourcePackPushPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockRequestPermissionsPacket : RequestPermissionsPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockInteractTranslator : InteractPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockEmoteListTranslator : EmoteListPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaUpdateMobEffectTranslator : ClientboundUpdateMobEffectPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockRequestChunkRadiusTranslator : RequestChunkRadiusPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaRespawnTranslator : ClientboundRespawnPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaGameEventTranslator : ClientboundGameEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockTextTranslator : TextPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBlockPickRequestTranslator : BlockPickRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelParticlesTranslator : ClientboundLevelParticlesPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoUpdateTranslator : ClientboundPlayerInfoUpdatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityDataTranslator : ClientboundSetEntityDataPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerAbilitiesTranslator : ClientboundPlayerAbilitiesPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectKnownPacksTranslator : ClientboundSelectKnownPacks
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetObjectiveTranslator : ClientboundSetObjectivePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderSizeTranslator : ClientboundSetBorderSizePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaClearTitlesTranslator : ClientboundClearTitlesPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaSetExperienceTranslator : ClientboundSetExperiencePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockUpdateTranslator : ClientboundBlockUpdatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaOpenBookTranslator : ClientboundOpenBookPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockPacketViolationWarningTranslator : PacketViolationWarningPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaStopSoundTranslator : ClientboundStopSoundPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockNetworkStackLatencyTranslator : NetworkStackLatencyPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerLookAtTranslator : ClientboundPlayerLookAtPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaForgetLevelChunkTranslator : ClientboundForgetLevelChunkPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDelayTranslator : ClientboundSetBorderWarningDelayPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureBlockUpdateTranslator : StructureBlockUpdatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaMountScreenOpenTranslator : ClientboundMountScreenOpenPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetDisplayObjectiveTranslator : ClientboundSetDisplayObjectivePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockCommandBlockUpdateTranslator : CommandBlockUpdatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveMinecartTranslator : ClientboundMoveMinecartPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaStartConfigurationTranslator : ClientboundStartConfigurationPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaCookieRequestTranslator : ClientboundCookieRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetActionBarTextTranslator : ClientboundSetActionBarTextPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetPassengersTranslator : ClientboundSetPassengersPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaChangeDifficultyTranslator : ClientboundChangeDifficultyPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockStructureTemplateDataRequestTranslator : StructureTemplateDataRequestPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStepTranslator : ClientboundTickingStepPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaTickingStateTranslator : ClientboundTickingStatePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaBossEventTranslator : ClientboundBossEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaContainerSetSlotTranslator : ClientboundContainerSetSlotPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.input.BedrockPlayerAuthInputTranslator : PlayerAuthInputPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaSelectAdvancementsTabTranslator : ClientboundSelectAdvancementsTabPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.border.JavaSetBorderWarningDistanceTranslator : ClientboundSetBorderWarningDistancePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerInfoRemoveTranslator : ClientboundPlayerInfoRemovePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerRotationTranslator : ClientboundPlayerRotationPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetDefaultGameTypeTranslator : SetDefaultGameTypePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaBlockEntityDataTranslator : ClientboundBlockEntityDataPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaMoveVehicleTranslator : ClientboundMoveVehiclePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.scoreboard.JavaSetScoreTranslator : ClientboundSetScorePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.BedrockBookEditTranslator : BookEditPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSoundEntityTranslator : ClientboundSoundEntityPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.world.BedrockLevelSoundEventTranslator : LevelSoundEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerInventoryOptionsTranslator : SetPlayerInventoryOptionsPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaAwardStatsTranslator : ClientboundAwardStatsPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaLoginTranslator : ClientboundLoginPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaLevelEventTranslator : ClientboundLevelEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.dialogues.JavaShowDialogGameTranslator : ClientboundShowDialogGamePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaDamageEventTranslator : ClientboundDamageEventPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaEntityPositionSyncTranslator : ClientboundEntityPositionSyncPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.dialogues.JavaShowDialogueConfigurationTranslator : ClientboundShowDialogConfigurationPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.title.JavaSetSubtitleTextTranslator : ClientboundSetSubtitleTextPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.inventory.JavaSetCursorItemTranslator : ClientboundSetCursorItemPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaCustomQueryTranslator : ClientboundCustomQueryPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.JavaSetEntityLinkTranslator : ClientboundSetEntityLinkPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaPlayerChatTranslator : ClientboundPlayerChatPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.entity.player.JavaPlayerCombatKillTranslator : ClientboundPlayerCombatKillPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.JavaServerLinksTranslator : ClientboundServerLinksPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.bedrock.entity.player.BedrockSetPlayerGameTypeTranslator : SetPlayerGameTypePacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.dialogues.JavaClearDialogTranslator : ClientboundClearDialogPacket
+[04:21:11] [Server thread/INFO]: [Geyser-Spigot] Found annotated translator: org.geysermc.geyser.translator.protocol.java.level.JavaMapItemDataTranslator : ClientboundMapItemDataPacket
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:nautilus_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:camel_husk_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:parched_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:zombie_nautilus_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_horse_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:wooden_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:stone_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:copper_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:iron_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:golden_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:diamond_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:iron_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:golden_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:diamond_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:copper_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:nautilus_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:camel_husk_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:parched_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:zombie_nautilus_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_horse_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:wooden_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:stone_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:copper_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:iron_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:golden_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:diamond_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:iron_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:golden_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:diamond_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:copper_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:nautilus_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:camel_husk_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:parched_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:zombie_nautilus_spawn_egg as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_horse_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:wooden_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:stone_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:copper_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:iron_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:golden_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:diamond_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_spear as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:iron_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:golden_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:diamond_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:netherite_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:copper_nautilus_armor as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:spectral_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:tipped_arrow as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:knowledge_book as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Adding minecraft:debug_stick as an item that needs to be translated.
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] codeofconducts.json not found, not loading
+[04:21:13] [Server thread/INFO]: [Geyser-Spigot] Auto-setting to Floodgate authentication.
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Kernel version: 6.8.0-1030-azure
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Listen thread count: 1
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Transport type: EPOLL
+[04:21:14] [Thread-6/INFO]: [Geyser-Spigot] {client=VersionDownload{sha1='ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd', size=31152600, url='https://piston-data.mojang.com/v1/objects/ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd/client.jar'}, client_mappings=VersionDownload{sha1='031a68bebf55d824f66d6573d8c752f0e1bf232a', size=11779287, url='https://piston-data.mojang.com/v1/objects/031a68bebf55d824f66d6573d8c752f0e1bf232a/client.txt'}, server=VersionDownload{sha1='64bb6d763bed0a9f1d632ec347938594144943ed', size=56327581, url='https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar'}, server_mappings=VersionDownload{sha1='5621e9253f05fd57872bbe7f8ddf5f9a7d525955', size=8678606, url='https://piston-data.mojang.com/v1/objects/5621e9253f05fd57872bbe7f8ddf5f9a7d525955/server.txt'}}
+[04:21:14] [Thread-6/INFO]: [Geyser-Spigot] VersionDownload{sha1='ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd', size=31152600, url='https://piston-data.mojang.com/v1/objects/ba2df812c2d12e0219c489c4cd9a5e1f0760f5bd/client.jar'}
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Setting MTU to 1400
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet packet limit to 120
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet global packet limit to 100000
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Setting RakNet send cookie to true
+[04:21:14] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 29805
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Auto-loaded Floodgate key
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Loaded Floodgate key!
+[04:21:14] [Thread-6/INFO]: [Geyser-Spigot] Downloading and loading locale: en_us
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Done (7.493s)! Run /geyser help for help!
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Spigot ping passthrough type: class org.geysermc.geyser.platform.spigot.GeyserPaperPingPassthrough
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] The handler floodgate-init isn't a ChannelInitializer. THIS ERROR IS SAFE TO IGNORE!
+[04:21:14] [Server thread/WARN]: java.lang.NoSuchFieldException: childHandler
+[04:21:14] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2784)
+[04:21:14] [Server thread/WARN]: 	at io.papermc.reflectionrewriter.runtime.AbstractDefaultRulesReflectionProxy.getDeclaredField(AbstractDefaultRulesReflectionProxy.java:90)
+[04:21:14] [Server thread/WARN]: 	at io.papermc.paper.pluginremap.reflect.PaperReflectionHolder.getDeclaredField(Unknown Source)
+[04:21:14] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotInjector.getChildHandler(GeyserSpigotInjector.java:156)
+[04:21:14] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotInjector.initializeLocalChannel0(GeyserSpigotInjector.java:115)
+[04:21:14] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.network.netty.GeyserInjector.initializeLocalChannel(GeyserInjector.java:64)
+[04:21:14] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin.onGeyserEnable(GeyserSpigotPlugin.java:264)
+[04:21:14] [Server thread/WARN]: 	at Geyser-Spigot.jar//org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin$1.onServerLoaded(GeyserSpigotPlugin.java:219)
+[04:21:14] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+[04:21:14] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71)
+[04:21:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[04:21:14] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
+[04:21:14] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)
+[04:21:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:751)
+[04:21:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488)
+[04:21:14] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280)
+[04:21:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164)
+[04:21:14] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[04:21:14] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Local injection succeeded!
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Unable to find spigot world manager: org.geysermc.geyser.adapters.spigot.craftbukkit.WorldAdapter_craftbukkit
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Using paper world adapter for protocol version: 772
+[04:21:14] [Server thread/INFO]: [Geyser-Spigot] Using world manager of type: GeyserSpigotLegacyNativeWorldManager
+[04:21:14] [Server thread/INFO]: Done preparing level "world" (15.900s)
+[04:21:14] [Server thread/INFO]: Running delayed init tasks
+[04:21:14] [Server thread/INFO]: Done (36.063s)! For help, type "help"
+[04:21:14] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[04:21:17] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:21:20] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[04:21:22] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:21:27] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:21:32] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:21:37] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:21:42] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:57062 has pinged you!
+[04:21:47] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:21:51] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[04:21:52] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:21:57] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:22:00] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:22:02] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:22:07] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:22:12] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:22:17] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:18926 has pinged you!
+[04:22:24] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:53421 tried to connect!
+[04:22:25] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Is player data signed? true
+[04:22:25] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Could not find packet for ClientToServerHandshakePacket
+[04:22:25] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Could not find packet for ClientCacheStatusPacket
+[04:22:26] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username XPRO452006 (898)
+[04:22:26] [localSession-7-2/INFO]: [Geyser-Spigot] XPRO452006 (logged in as: XPRO452006) has connected to the Java server
+[04:22:26] [localSession-7-2/INFO]: [Geyser-Spigot] Downloading and loading locale: es_mx
+[04:22:26] [localSession-7-2/INFO]: [Geyser-Spigot] Locale already downloaded and up-to date: es_mx
+[04:22:26] [localSession-7-2/INFO]: [Geyser-Spigot] Registering bedrock skin for .XPRO452006 (00000000-0000-0000-0009-01f36e50f29b)
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Ignoring registry of type minecraft:test_environment
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Ignoring registry of type minecraft:test_instance
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Not loading tags for registry minecraft:game_event (registry not listed in JavaRegistries)
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Emulating post 1.13 villager logic for XPRO452006? true
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Emulating post 1.18 block predication logic for XPRO452006? true
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Not loading tags for registry minecraft:point_of_interest_type (registry not listed in JavaRegistries)
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Not loading tags for registry minecraft:fluid (registry not listed in JavaRegistries)
+[04:22:26] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Ignoring registry of type minecraft:timeline
+[04:22:27] [Server thread/INFO]: [floodgate] Floodgate player logged in as .XPRO452006 joined (UUID: 00000000-0000-0000-0009-01f36e50f29b)
+[04:22:27] [Server thread/INFO]: .XPRO452006 joined the game
+[04:22:27] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Using old smithing table workaround? false
+[04:22:27] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Could not find packet for ClientboundRecipeBookSettingsPacket
+[04:22:27] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Spawned player at (81.27456, 67.10312, -47.872955)
+[04:22:27] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Could not find packet for ClientboundServerDataPacket
+[04:22:27] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Ignoring player info update for 00000000-0000-0000-0009-01f36e50f29b
+[04:22:27] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Could not find packet for ClientboundSetSimulationDistancePacket
+[04:22:27] [Thread-18/INFO]: [Geyser-Spigot] Loaded Local Bedrock Java Skin Data for XPRO452006
+[04:22:27] [Server thread/INFO]: .XPRO452006[/127.230.164.213:0] logged in with entity id 41 at ([world]81.27456, 67.10312, -47.872955)
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command xp to experience
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command tell to msg
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command w to msg
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command tm to teammsg
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command tp to teleport
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command minecraft:xp to experience
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command minecraft:tell to msg
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command minecraft:w to msg
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command minecraft:tm to teammsg
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Redirecting command minecraft:tp to teleport
+[04:22:28] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Sending command packet of 91 commands
+[04:22:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2604ms or 52 ticks behind
+[04:22:48] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 2 ms. Updated 1 players
+[04:22:49] [Server thread/WARN]: .XPRO452006 moved too quickly! 16.522040999999998,-2.159639999999996,11.31897
+[04:22:49] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Teleport (2) from 39.164604 65.843216 -38.038906
+[04:22:49] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] to 39.164604 69.14104 -38.038906
+[04:23:07] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:23:20] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:23:20] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Teleport (3) from -110.700005 100.898605 37.45706
+[04:23:20] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] to -109.931335 100.67363 38.043724
+[04:23:22] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:23:24] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 2 ms. Updated 1 players
+[04:23:27] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:23:30] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Teleport (4) from -129.20386 117.42196 29.299997
+[04:23:30] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] to -128.67639 117.42196 29.310814
+[04:23:36] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:23:40] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:23:51] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:24:03] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:24:07] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Unknown game rule allowEnteringNetherUsingPortals
+[04:24:07] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Unknown game rule commandBlocksEnabled
+[04:24:07] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Unknown game rule pvp
+[04:24:07] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Unknown game rule spawnMonsters
+[04:24:07] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Unknown game rule spawnerBlocksEnabled
+[04:24:43] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:25:04] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:25:17] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] (XPRO452006) ContainerClosePacket(id=0, serverInitiated=false, type=NONE)
+[04:25:17] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] (XPRO452006) Closed inventory: (java id: 0/bedrock id: 0), waiting on confirm? false
+[04:25:19] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] (XPRO452006) ContainerClosePacket(id=0, serverInitiated=false, type=NONE)
+[04:25:19] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] (XPRO452006) Closed inventory: (java id: 0/bedrock id: 0), waiting on confirm? false
+[04:25:20] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:20] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:25:21] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:22] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:25] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:25:27] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:30] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:38] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:43] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:52] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:53] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:25:57] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 1 players
+[04:26:01] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:26:02] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:26:03] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:26:06] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:26:11] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:26:13] [Geyser player thread-5-1/INFO]: [Geyser-Spigot] Missing mapping for bedrock item BaseItemData(definition=SimpleItemDefinition(identifier=minecraft:netherite_spear, runtimeId=261, version=DATA_DRIVEN, componentBased=true, componentData={
+  "components": {
+    "item_properties": {
+      "allow_off_hand": 0b,
+      "can_destroy_in_creative": 1b,
+      "creative_category": 3i,
+      "creative_group": "",
+      "damage": 5i,
+      "enchantable_slot": "melee_spear",
+      "enchantable_value": 15i,
+      "foil": 0b,
+      "frame_count": 1i,
+      "hand_equipped": 1b,
+      "hidden_in_commands": 2b,
+      "liquid_clipped": 0b,
+      "max_stack_size": 1i,
+      "minecraft:icon": {
+        "textures": {
+          "default": "netherite_spear"
+        }
+      },
+      "mining_speed": 1.0f,
+      "should_despawn": 1b,
+      "stacked_by_data": 0b,
+      "use_animation": 0i,
+      "use_duration": 1440000i
+    },
+    "item_tags": [
+      "minecraft:netherite_tier",
+      "minecraft:is_spear"
+    ],
+    "minecraft:cooldown": {
+      "category": "spear",
+      "duration": 1.15f,
+      "type": "attack"
+    },
+    "minecraft:damage": {
+      "value": 5b
+    },
+    "minecraft:display_name": {
+      "value": "item.netherite_spear.name"
+    },
+    "minecraft:durability": {
+      "damage_chance": {
+        "max": 100i,
+        "min": 0i
+      },
+      "max_durability": 2030i
+    },
+    "minecraft:enchantable": {
+      "slot": "melee_spear",
+      "value": 15b
+    },
+    "minecraft:fire_resistant": {
+      "value": 1b
+    },
+    "minecraft:hand_equipped": {
+      "value": 1b
+    },
+    "minecraft:kinetic_weapon": {
+      "minecraft:kinetic_weapon": {
+        "creative_reach": {
+          "max": 7.5f,
+          "min": 2.0f
+        },
+        "damage_conditions": {
+          "max_duration": 175s,
+          "min_relative_speed": 4.6f,
+          "min_speed": 0.0f
+        },
+        "damage_modifier": 0.0f,
+        "damage_multiplier": 1.2f,
+        "delay": 8s,
+        "dismount_conditions": {
+          "max_duration": 50s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 9.0f
+        },
+        "hitbox_margin": 0.25f,
+        "knockback_conditions": {
+          "max_duration": 70s,
+          "min_relative_speed": 0.0f,
+          "min_speed": 5.1f
+        },
+        "reach": {
+          "max": 4.5f,
+          "min": 2.0f
+        }
+      }
+    },
+    "minecraft:max_stack_size": {
+      "value": 1b
+    },
+    "minecraft:piercing_weapon": {
+      "creative_reach": {
+        "max": 7.5f,
+        "min": 2.0f
+      },
+      "hitbox_margin": 0.25f,
+      "reach": {
+        "max": 4.5f,
+        "min": 2.0f
+      }
+    },
+    "minecraft:repairable": {
+      "repair_items": [
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_spear"
+            }
+          ],
+          "repair_amount": {
+            "expression": "context.other->query.remaining_durability",
+            "version": 13s
+          }
+        },
+        {
+          "items": [
+            {
+              "name": "minecraft:netherite_ingot"
+            }
+          ],
+          "repair_amount": {
+            "expression": "query.max_durability * 0.25",
+            "version": 13s
+          }
+        }
+      ]
+    },
+    "minecraft:swing_duration": {
+      "value": 1.15f
+    },
+    "minecraft:swing_sounds": {
+      "attack_hit": "item.spear.attack_hit",
+      "attack_miss": "item.spear.attack_miss"
+    },
+    "minecraft:tags": {
+      "tags": [
+        "minecraft:netherite_tier",
+        "minecraft:is_spear"
+      ]
+    },
+    "minecraft:use_modifiers": {
+      "emit_vibrations": 0b,
+      "movement_modifier": 1.0f,
+      "start_sound": "item.spear.use",
+      "use_duration": 72000.0f
+    }
+  }
+}), damage=0, count=1, tag={
+  "Damage": 0i,
+  "display": {
+    "Lore": [
+      "§r§7
+      §7En la mano principal:",
+      "§r§25 Daño por golpe",
+      "§r§20.86957 Velocidad de ataque"
+    ]
+  }
+}, canPlace=[], canBreak=[], blockingTicks=0, blockDefinition=GeyserBedrockBlock{minecraft:cyan_terracotta}, usingNetId=false, netId=0)
+[04:26:20] [localSession-7-2/INFO]: [Geyser-Spigot] XPRO452006 has disconnected from the Java server because of End of stream
+[04:26:20] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .XPRO452006 disconnected
+[04:26:20] [Server thread/INFO]: .XPRO452006 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet play/serverbound/minecraft:accept_teleportation (ServerboundAcceptTeleportationPacket) was larger than I expected, found 10 bytes extra whilst reading packet serverbound/minecraft:accept_teleportation
+[04:26:20] [Server thread/INFO]: .XPRO452006 left the game
+[04:26:34] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:34289 has pinged you!
+[04:26:34] [Thread-7/INFO]: [Geyser-Spigot] Scoreboard updater: took 1 ms. Updated 0 players
+[04:26:39] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:34289 has pinged you!
+[04:26:44] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:39917 has pinged you!
+[04:26:49] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:34289 has pinged you!
+[04:26:54] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:34289 has pinged you!
+[04:26:59] [GeyserServer-3-1/INFO]: [Geyser-Spigot] /127.230.164.213:34289 has pinged you!
+[04:27:00] [Server thread/INFO]: Stopping the server
+[04:27:00] [Server thread/INFO]: Stopping server
+[04:27:00] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.9.2-SNAPSHOT
+[04:27:00] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[04:27:00] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[04:27:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.6.0
+[04:27:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[04:27:00] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b125-a772911)
+[04:27:00] [Server thread/INFO]: Saving players
+[04:27:00] [WebSocketConnectReadThread-73/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[04:27:00] [Server thread/INFO]: Saving worlds
+[04:27:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:27:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:27:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:27:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Saved 779 block chunks, 796 entity chunks, 0 poi chunks in world 'world' in 2.54s
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:27:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:27:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:27:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:27:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:27:03] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[04:27:03] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[04:27:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:27:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
